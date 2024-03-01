@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>JOB APPPLICATION <span class="title_box"> (Web)</span></h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_content">
+                        <label for="first_name">First Name</label>
+                        <input
+                           id="first_name"
+                           placeholder="Enter your name"
+                           name="First name"
+                        />   
+                    </div>
+                    <div class="form_content">
+                        <label for="last_name">Last Name</label>
+                        <input
+                           id="last_name"
+                           placeholder="Last Name"
+                           name="Last name"
+                        />   
+                    </div>
+                    <div class="form_content">
+                        <label for="Email">Email</label>
+                        <input
+                           type="email"
+                           id="Email"
+                           placeholder="Enter your Email"
+                           name="Email"
+                        />   
+                    </div>
+                    <div class="form_content">
+                        <label for="job_role">Job Role</label>
+                        <select id="job_role" name="job role">
+                            <option value="">Select for JOB role</option>
+                            <option value="Frontend"> Frontend developer</option>
+                            <option value="backend"> backend developer</option>
+                        </select>
+                    </div>
+                    <div class="textarea_content">
+                        <label for="address">Address</label>
+                        <textarea 
+                            id="address" 
+                            name="Address"
+                            rows="4"
+                            cols="30" 
+                            placeholder="Enter your address"  
+                        ></textarea>    
+                    </div>
+                    <div class="form_content">
+                        <label for="city_name">City Name</label>
+                        <input
+                           id="city_name"
+                           placeholder="Enter city name"
+                           name="City Name"
+                        />   
+                    </div>
+                    <div class="form_content">
+                        <label for="pincode">Pincode</label>
+                        <input
+                           type="number"
+                           id="pincode"
+                           placeholder="city pincode"
+                           name="Pincode"
+                        />   
+                    </div>
+                    <div class="form_content">
+                        <label for="date">Date</label>
+                        <input
+                           value="2024-03-01"
+                           type="Date"
+                           id="date"
+                           name="Date"
+                        />   
+                    </div>
+                    <div class="form_content">
+                        <label for="upload">upload cv</label>
+                        <input
+                           type="file"
+                           id="upload"
+                           placeholder="upload cv"
+                           name="upload"
+                        />   
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit" >Apply Now</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
